@@ -302,42 +302,51 @@
 
             <div class="columns">
                 <div class="column has-text-centered">
-                    <img src="/images/attacco_aria.png" alt="" />
-                </div>
-                <div class="column has-text-centered">
-                    <img src="/images/ampolla_lineare.png" alt="" />
-                </div>
-                <div class="column has-text-centered">
-                    <img src="/images/mascherina_adulti.png" alt="" />
-                </div>
-                <div class="column has-text-centered">
-                    <img src="/images/mascherina_pediatrica.png" alt="" />
-                </div>
-                <div class="column has-text-centered">
-                    <img src="/images/nasale.png" alt="" />
-                </div>
-                <div class="column has-text-centered">
-                    <img src="/images/boccaglio.png" alt="" />
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column has-text-centered">
-                    Attacco Aria
-                </div>
-                <div class="column has-text-centered">
-                    Ampolla lineare
-                </div>
-                <div class="column has-text-centered">
-                    Mascherina Adulti
-                </div>
-                <div class="column has-text-centered">
-                    Mascherina Pediatrica
-                </div>
-                <div class="column has-text-centered">
-                    Nasale
-                </div>
-                <div class="column has-text-centered">
-                    Boccaglio
+                    <table class="table is-fullwidth">
+                        <tr>
+                            <td>
+                                <img src="/images/attacco_aria.png" alt="" />
+                            </td>
+                            <td>
+                                <img src="/images/ampolla_lineare.png" alt="" />
+                            </td>
+                            <td>
+                                <img src="/images/mascherina_adulti.png" alt="" />
+                            </td>
+                            <td>
+                                <img src="/images/mascherina_pediatrica.png" alt="" />
+                            </td>
+                            <td>
+                                <img src="/images/nasale.png" alt="" />
+                            </td>
+                            <td>
+                                <img src="/images/boccaglio.png" alt="" />
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Attacco Aria
+                            </td>
+                            <td>
+                                Ampolla lineare
+                            </td>
+                            <td>
+                                Mascherina Adulti
+                            </td>
+                            <td>
+                                Mascherina Pediatrica
+                            </td>
+                            <td>
+                                Nasale
+                            </td>
+                            <td>
+                                Boccaglio
+                            </td>
+
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div class="spazio_bianco" />
