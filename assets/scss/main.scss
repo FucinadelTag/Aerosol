@@ -1,0 +1,19 @@
+@import "~bulma/sass/utilities/_all";
+
+$family-serif: 'Open Sans', sans-serif;
+
+// Use the new serif family
+$family-primary: $family-serif;
+
+$button-color: #000000;
+$button-background-color: #ffed00 !default;
+
+@import "~bulma";
+
+p {
+    line-height: 1.6em;
+}
+
+div.spazio_bianco {
+  height: 4rem;
+}
