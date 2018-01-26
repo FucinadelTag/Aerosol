@@ -9,16 +9,8 @@
                 </p>
 
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/63c30ff597d512253e01b1403be2e851b8802ee3_a1500.png" alt="" />
-                <p class="p_stretto">
-                    <span class="leggero">Prezzo: <span class="prezzo_intero">100,00€</span></span><br>
-                    Offerta: <span class="prezzo">55,00€</span> <span class="sconto">Sconto del 45%</span><br>
-                    <span class="leggero">Risparmi: 45,00€ </span><span> - </span><i>Fino al <strong class="dataPromo">31 gennaio 2018</strong></i> <br>
-                    <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
-                </p>
-                <br>
-                <p>
-                    <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
-                </p>
+
+                <Acquisto sku="emed_A1500"/>
             </div>
             <div class="prodotto column">
                 <h2 class="title is-1">Aerosol a pistone</h2>
@@ -26,17 +18,7 @@
                     Emed A610
                 </p>
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/8b8433c472bf9ccc4fe6ca7b5862720cad29b0e7_a610-lateral-view.jpg" alt="" />
-                <p class="p_stretto">
-                    <span class="leggero">Prezzo: <span class="prezzo_intero">100,00€</span></span><br>
-                    Offerta: <span class="prezzo">37,80€</span> <span class="sconto">Sconto del 50%</span><br>
-                    <span class="leggero">Risparmi: 37,80€ </span><span> - </span><i>Fino al <strong class="dataPromo">termine DELLA PROMOZIONE</strong></i> <br>
-                    <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
-
-                </p>
-                <br>
-                <p>
-                    <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
-                </p>
+                <Acquisto sku="emed_A610"/>
             </div>
         </div>
 
@@ -183,17 +165,7 @@
                 <div class="column">
                     <img src="/images/pinguino_misure.png" alt="" />
 
-                    <p class="p_stretto">
-                        <span class="leggero">Prezzo: <span class="prezzo_intero">100,00€</span></span><br>
-                        Offerta: <span class="prezzo">37,80€</span> <span class="sconto">Sconto del 50%</span><br>
-                        <span class="leggero">Risparmi: 37,80€ </span><span> - </span><i>Fino al <strong class="dataPromo">termine DELLA PROMOZIONE</strong></i> <br>
-                        <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
-
-                    </p>
-                    <br>
-                    <p>
-                        <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
-                    </p>
+                    <Acquisto sku="emed_A1500"/>
 
                 </div>
                 <div class="column">
@@ -244,17 +216,7 @@
                 <div class="column">
                     <img src="/images/nebulizzatore_adulti_misure.png" alt="" />
 
-                    <p class="p_stretto">
-                        <span class="leggero">Prezzo: <span class="prezzo_intero">100,00€</span></span><br>
-                        Offerta: <span class="prezzo">37,80€</span> <span class="sconto">Sconto del 50%</span><br>
-                        <span class="leggero">Risparmi: 37,80€ </span><span> - </span><i>Fino al <strong class="dataPromo">termine DELLA PROMOZIONE</strong></i> <br>
-                        <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
-
-                    </p>
-                    <br>
-                    <p>
-                        <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
-                    </p>
+                    <Acquisto sku="emed_A610"/>
 
                 </div>
                 <div class="column">
@@ -303,49 +265,51 @@
             <div class="columns">
                 <div class="column has-text-centered">
                     <table class="table is-fullwidth">
-                        <tr>
-                            <td>
-                                <img src="/images/attacco_aria.png" alt="" />
-                            </td>
-                            <td>
-                                <img src="/images/ampolla_lineare.png" alt="" />
-                            </td>
-                            <td>
-                                <img src="/images/mascherina_adulti.png" alt="" />
-                            </td>
-                            <td>
-                                <img src="/images/mascherina_pediatrica.png" alt="" />
-                            </td>
-                            <td>
-                                <img src="/images/nasale.png" alt="" />
-                            </td>
-                            <td>
-                                <img src="/images/boccaglio.png" alt="" />
-                            </td>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="/images/attacco_aria.png" alt="" />
+                                </td>
+                                <td>
+                                    <img src="/images/ampolla_lineare.png" alt="" />
+                                </td>
+                                <td>
+                                    <img src="/images/mascherina_adulti.png" alt="" />
+                                </td>
+                                <td>
+                                    <img src="/images/mascherina_pediatrica.png" alt="" />
+                                </td>
+                                <td>
+                                    <img src="/images/nasale.png" alt="" />
+                                </td>
+                                <td>
+                                    <img src="/images/boccaglio.png" alt="" />
+                                </td>
 
-                        </tr>
+                            </tr>
 
-                        <tr>
-                            <td>
-                                Attacco Aria
-                            </td>
-                            <td>
-                                Ampolla lineare
-                            </td>
-                            <td>
-                                Mascherina Adulti
-                            </td>
-                            <td>
-                                Mascherina Pediatrica
-                            </td>
-                            <td>
-                                Nasale
-                            </td>
-                            <td>
-                                Boccaglio
-                            </td>
+                            <tr>
+                                <td>
+                                    Attacco Aria
+                                </td>
+                                <td>
+                                    Ampolla lineare
+                                </td>
+                                <td>
+                                    Mascherina Adulti
+                                </td>
+                                <td>
+                                    Mascherina Pediatrica
+                                </td>
+                                <td>
+                                    Nasale
+                                </td>
+                                <td>
+                                    Boccaglio
+                                </td>
 
-                        </tr>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -357,17 +321,7 @@
                         Emed A1500
                     </p>
                     <img src="/images/emed_A1500.png" alt="" />
-                    <p class="p_stretto">
-                        <span class="leggero">Prezzo: <span class="prezzo_intero">100,00€</span></span><br>
-                        Offerta: <span class="prezzo">37,80€</span> <span class="sconto">Sconto del 50%</span><br>
-                        <span class="leggero">Risparmi: 37,80€ </span><span> - </span><i>Fino al <strong class="dataPromo">termine DELLA PROMOZIONE</strong></i> <br>
-                        <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
-
-                    </p>
-                    <br>
-                    <p>
-                        <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
-                    </p>
+                    <Acquisto sku="emed_A1500"/>
                 </div>
 
                 <div class="column is-half">
@@ -376,17 +330,7 @@
                         Emed A610
                     </p>
                     <img src="/images/emed_A610.png" alt="" />
-                    <p class="p_stretto">
-                        <span class="leggero">Prezzo: <span class="prezzo_intero">100,00€</span></span><br>
-                        Offerta: <span class="prezzo">37,80€</span> <span class="sconto">Sconto del 50%</span><br>
-                        <span class="leggero">Risparmi: 37,80€ </span><span> - </span><i>Fino al <strong class="dataPromo">termine DELLA PROMOZIONE</strong></i> <br>
-                        <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
-
-                    </p>
-                    <br>
-                    <p>
-                        <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
-                    </p>
+                    <Acquisto sku="emed_A610"/>
                 </div>
 
             </div>
@@ -451,6 +395,15 @@
 </template>
 
 <script>
+    import Acquisto from '~/components/acquisto.vue'
+
+    export default {
+        components: {
+            Acquisto
+
+        },
+    }
+
 </script>
 
 <style lang="scss">
@@ -464,43 +417,6 @@
 
 
 }
-
-.prezzo {
-    font-size: 1.8rem;
-    color: #ff2424;
-    padding: 0.3125rem;
-    font-weight: bold;
-}
-
-.prezzo_intero {
-    text-decoration: line-through;
-}
-
-.sconto {
-    font-size: rem-calc(20, null);
-    font-weight: 700;
-    color: $rosso-color;
-}
-
-.leggero {
-  color: $dark-gray;
-  font-size: 0.9rem;
-}
-
-.small {
-  font-size: 0.9rem;
-}
-
-.p_stretto {
-  line-height: 1.2;
-}
-
-.button {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-}
-
 .servizio {
     .column {
         padding: 1.4rem;
