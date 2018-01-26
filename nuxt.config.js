@@ -8,7 +8,8 @@ module.exports = {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700' }
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700' },
+            { rel: 'stylesheet', href:'https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css'}
         ]
     },
     modules: [
@@ -22,6 +23,8 @@ module.exports = {
     ],
     plugins: [
         { src: '~plugins/iconFont.js', ssr: false },
+        { src: '~plugins/snipcartFdt.js', ssr: false },
+        { src: '~plugins/facebook.js', ssr: false },
 
     ],
     loading: { color: '#3B8070' },

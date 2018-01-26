@@ -8,7 +8,16 @@
         </p>
         <br>
         <p>
-            <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a>
+            <a
+                class="snipcart-add-item button"
+                v-bind:data-item-id="prodotto.sku"
+                v-bind:data-item-name="prodotto.nome"
+                v-bind:data-item-price="prodotto.prezzoScontato"
+                data-item-url="/"
+                data-item-description="Aerosol a pistone">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello
+            </a>
+            <!-- <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a> -->
         </p>
     </section>
 
@@ -68,7 +77,6 @@ export default {
     .button {
         font-size: 1.4rem;
         text-transform: uppercase;
-        letter-spacing: 0.05rem;
     }
 }
 
