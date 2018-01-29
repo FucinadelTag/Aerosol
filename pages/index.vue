@@ -528,12 +528,20 @@
 
 }
 .servizio {
+    padding: 1rem;
+    border-color: $grigio-chiaro;
+    border-width: .1rem;
+    border-style: solid;
     .column {
         padding: 1.4rem;
     }
 }
 
 .caratteristiche {
+    padding: 1rem;
+    border-color: $grigio-chiaro;
+    border-width: .1rem;
+    border-style: solid;
 
 }
 
@@ -541,6 +549,10 @@
     .solede{
         margin-top: 10rem;
     }
+    padding: 1rem;
+    border-color: $grigio-chiaro;
+    border-width: .1rem;
+    border-style: solid;
 }
 
 .perche_pistone {
