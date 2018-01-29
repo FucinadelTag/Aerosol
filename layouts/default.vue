@@ -9,11 +9,11 @@
                     <div class="container">
                         <div class="content">
                             <p>
-                                <a href="resi" target="_blank">Restituzione e Rimborsi</a> | <a href="privacy">Privacy Policy</a> 
+                                <a href="resi" target="_blank">Restituzione e Rimborsi</a> | <a href="privacy">Privacy Policy</a>
                             </p>
                             <br>
                             <p>
-                                <a href="https://www.facebook.com/Solede-132677133933081/" target="_blank"><i class="fa fa-facebook"></i></a> | © Solede è un progetto di Fucina del Tag - Via Pastregno 14 - 20128 MIlano - P.IVA 03201900960 <br>
+                                <a href="https://www.facebook.com/Solede-132677133933081/" target="_blank"><i class="fa fa-facebook"></i></a> | © Solede è un progetto di Fucina del Tag - Via Pastregno 14 - 20128 Milano - P.IVA 03201900960 <br>
 
                             </p>
 
