@@ -19,7 +19,11 @@
                             <a class="navbar-item" href=""></a>
                         </div>
                         <div class="navbar-end">
-                            <a class="navbar-item" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrello</a>
+                            <a href="#" class="navbar-item snipcart-checkout">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrello
+                            </a>
+
+                            <a href="tel:800-180-439" class="navbar-item numero-verde"><i class="fa fa-phone" aria-hidden="true"></i> 800-180-439</a>
                         </div>
                     </div>
                 </nav>

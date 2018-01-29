@@ -1,8 +1,6 @@
 <template lang="html">
-    <div class="row">
-        <div class="columns">
-            <a href="//www.iubenda.com/privacy-policy/670302" class="iubenda-white no-brand iub-body-embed iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "//cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-        </div>
+    <div>
+            <a href="//www.iubenda.com/privacy-policy/670302" class="iubenda-white no-brand iub-body-embed iubenda-embed" title="Privacy Policy">Privacy Policy</a>
     </div>
 </template>
 
