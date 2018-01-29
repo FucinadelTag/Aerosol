@@ -4,6 +4,16 @@
             <div>
                 <Menu/>
                 <nuxt/>
+                
+                <footer class="footer">
+                    <div class="container">
+                        <div class="content">
+                            <p>
+                                <a href="https://www.facebook.com/Solede-132677133933081/" target="_blank"><i class="fa fa-facebook"></i></a> | © Solede è un progetto di Fucina del Tag - Via Pastregno 14 - 20128 MIlano - P.IVA 03201900960
+                            </p>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>
@@ -31,6 +41,5 @@
 
 <style>
 .default {
-    padding: 1rem;
 }
 </style>

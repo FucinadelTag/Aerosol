@@ -1,5 +1,5 @@
 <template>
-    <section class=" container">
+    <section class="main container">
 
         <div class="columns testata">
             <div class="prodotto column">
@@ -22,6 +22,8 @@
             </div>
         </div>
 
+        <Banner/>
+
         <div class="spazio_bianco" />
 
         <div class="servizio columns is-multiline">
@@ -36,10 +38,10 @@
             </div>
             <div class="column is-half">
                 <h3 class="title is-3">
-                    <i class="fa fa-gavel" aria-hidden="true"></i> Garanzia <strong>6 anni</strong>
+                    <i class="fa fa-gavel" aria-hidden="true"></i> Garanzia <strong>2 anni</strong>
                 </h3>
                 <p>
-                    In caso di problemi tecnici o mal funzionamenti <strong>vi invieremo gratuitamente un nuovo Misuratore di Pressione</strong>.
+                    In caso di problemi tecnici o mal funzionamenti <strong>vi invieremo gratuitamente un nuovo Aerosol</strong>.
                     <br>Chiamando il nostro numero verde o contattandoci via email, sapremo sempre trovare una soluzione al vostro problema.
                 </p>
             </div>
@@ -95,14 +97,13 @@
 
         </div>
 
+        <Banner/>
+
         <div class="spazio_bianco" />
 
-        <h1 class="title is-1">Aerosol a pistone EMED</h1>
+        <h1 class="title is-1">Aerosol adatti a tutti i tipi di farmaci!</h1>
 
         <div class="caratteristiche columns">
-            <div class="column">
-                <img src="/images/aerosol_bambini.jpg" alt="" />
-            </div>
             <div class="column content">
                 <h3 class="title">
                     <i class="fa fa-medkit" aria-hidden="true"></i> Adatti a tutti i tipi di farmaci (anche a base oleosa)
@@ -136,25 +137,47 @@
                     <i class="fa fa-rocket" aria-hidden="true"></i> Veloci
                 </h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula ligula, commodo efficitur metus quis, porttitor sollicitudin elit.
+                    I tempi di nebulizzazione sono estremamente brevi. È quindi l’ideale per chi ha poco tempo (o poca pazienza, come la maggior parte dei bambini).
                 </p>
                 <br>
                 <h3 class="title">
                     <i class="fa fa-users" aria-hidden="true"></i> Per adulti e bambini
                 </h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula ligula, commodo efficitur metus quis, porttitor sollicitudin elit.
-                </p>
-                <br>
-                <h3 class="title">
-                    <i class="fa fa-volume-off" aria-hidden="true"></i> Silenziosi
-                </h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula ligula, commodo efficitur metus quis, porttitor sollicitudin elit.
+                    All’interno della confezione troverai un set completo con due mascherine: una per adulti e una per bambini.
                 </p>
             </div>
 
+            <div class="column">
+                <img src="/images/aerosol_bimba.jpg" alt="" />
+            </div>
+
         </div>
+
+        <div class="spazio_bianco" />
+
+        <section class="perche_pistone">
+            <h1 class="title is-1">Perchè scegliere un Aerosol a Pistone</h1>
+
+            <div class="columns" style="background: url(https://prismic-io.s3.amazonaws.com/aerosol/359bc11c7bd1b210435725385396d35bc1b51fc2_aerosol_bimbo.jpg) center no-repeat; background-size: cover;">
+                <div class="column">
+
+                </div>
+                <div class="column is-4 over-foto">
+                    <p>
+                        Nonostante gli aerosol a pistone siano più rumorosi di quelli ad ultrasuoni, garantiscono sicuramente performance migliori, in quanto sono in grado di <strong>nebulizzare al meglio qualsiasi medicinale</strong>.
+                    </p>
+                    <br>
+                    <p>
+                        I nebulizzatori a pistone sono quindi la <strong>soluzione ideale per chi ne ha bisogno in modo frequente</strong> e con farmaci indicati dal dottore e dal pediatra.
+                    </p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <Banner/>
 
         <div class="spazio_bianco" />
 
@@ -267,44 +290,52 @@
                     <table class="table is-fullwidth">
                         <tbody>
                             <tr>
-                                <td>
+                                <td class="has-text-centered">
                                     <img src="/images/attacco_aria.png" alt="" />
                                 </td>
-                                <td>
+                                <td class="has-text-centered">
                                     <img src="/images/ampolla_lineare.png" alt="" />
                                 </td>
-                                <td>
+                                <td class="has-text-centered">
                                     <img src="/images/mascherina_adulti.png" alt="" />
-                                </td>
-                                <td>
-                                    <img src="/images/mascherina_pediatrica.png" alt="" />
-                                </td>
-                                <td>
-                                    <img src="/images/nasale.png" alt="" />
-                                </td>
-                                <td>
-                                    <img src="/images/boccaglio.png" alt="" />
                                 </td>
 
                             </tr>
 
                             <tr>
-                                <td>
+                                <td class="has-text-centered">
                                     Attacco Aria
                                 </td>
-                                <td>
+                                <td class="has-text-centered">
                                     Ampolla lineare
                                 </td>
-                                <td>
+                                <td class="has-text-centered">
                                     Mascherina Adulti
                                 </td>
-                                <td>
+
+                            </tr>
+                            <tr>
+
+                                <td class="has-text-centered">
+                                    <img src="/images/mascherina_pediatrica.png" alt="" />
+                                </td>
+                                <td class="has-text-centered">
+                                    <img src="/images/nasale.png" alt="" />
+                                </td>
+                                <td class="has-text-centered">
+                                    <img src="/images/boccaglio.png" alt="" />
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <td class="has-text-centered">
                                     Mascherina Pediatrica
                                 </td>
-                                <td>
+                                <td class="has-text-centered">
                                     Nasale
                                 </td>
-                                <td>
+                                <td class="has-text-centered">
                                     Boccaglio
                                 </td>
 
@@ -313,9 +344,43 @@
                     </table>
                 </div>
             </div>
+            <!-- <div class="column has-text-centered">
+                <table class="table is-fullwidth">
+                    <tbody>
+                        <tr>
+
+                            <td class="has-text-centered">
+                                <img src="/images/mascherina_pediatrica.png" alt="" />
+                            </td>
+                            <td class="has-text-centered">
+                                <img src="/images/nasale.png" alt="" />
+                            </td>
+                            <td class="has-text-centered">
+                                <img src="/images/boccaglio.png" alt="" />
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td class="has-text-centered">
+                                Mascherina Pediatrica
+                            </td>
+                            <td class="has-text-centered">
+                                Nasale
+                            </td>
+                            <td class="has-text-centered">
+                                Boccaglio
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div> -->
+        </div>
             <div class="spazio_bianco" />
             <div class="columns is-centered">
-                <div class="column is-half">
+                <div class="column is-half has-text-centered">
                     <h2 class="title is-3">Aerosol a pistone</h2>
                     <p class="subtitle is-6">
                         Emed A1500
@@ -324,7 +389,7 @@
                     <Acquisto sku="emed_A1500"/>
                 </div>
 
-                <div class="column is-half">
+                <div class="column is-half has-text-centered">
                     <h2 class="title is-3">Aerosol a pistone</h2>
                     <p class="subtitle is-6">
                         Emed A610
@@ -339,26 +404,58 @@
 
         </section>
 
+        <Banner/>
+
         <div class="spazio_bianco" />
 
         <section class="chi_siamo">
             <h2 class="title is-1">Chi Siamo</h2>
+
+            <!-- <table class="table is-fullwidth">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="/images/logo_emed.png" alt="" />
+                        </td>
+                        <td>
+                            <br><br><br><br>
+                            <img src="https://prismic-io.s3.amazonaws.com/solede%2Fec203e4a-0567-4ec6-965f-d0893d2990c6_logo_solede.png" alt="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                EMED è un marchio registrato di EP S.p.A., società fondata nel 1963, come azienda produttrice di elettrodomestici per i grandi marchi.
+                            </p>
+                            <br>
+                            <p>
+                                Nel 2004, dalla lunga esperienza e grazie al know-how aziendale, è nata EMED: è una divisione specializzata nello sviluppo, produzione e vendita di dispositivi medici e prodotti dedicati ad adulti e bambini
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Solede è una giovane realtà nata nel 2015 allo scopo di diffondere la cultura della prevenzione attraverso la diffusione di strumenti elettronici di facile utilizzo.
+                            </p>
+                            <br>
+                            <p>
+                                Unitamente ad un grosso lavoro di formazione e culturale, cerchiamo di rendere disponibili al grande pubblico degli strumenti di monitoraggio della propria salute.
+                            </p>
+                            <br>
+                            <p>
+                                Avvalendosi della consulenza di medici affermati e professionisti del soccorso, Solede propone al proprio pubblico strumenti semplici e funzionali a prezzi competitivi
+
+                            </p>
+
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table> -->
+
             <div class="columns">
                 <div class="column is-half">
                     <img src="/images/logo_emed.png" alt="" />
 
-
-                </div>
-                <div class="column">
-                    <br><br><br>
-                    <img src="https://prismic-io.s3.amazonaws.com/solede%2Fec203e4a-0567-4ec6-965f-d0893d2990c6_logo_solede.png" alt="" />
-
-
-                </div>
-
-            </div>
-            <div class="columns">
-                <div class="column is-half">
                     <p>
                         EMED è un marchio registrato di EP S.p.A., società fondata nel 1963, come azienda produttrice di elettrodomestici per i grandi marchi.
                     </p>
@@ -367,8 +464,11 @@
                         Nel 2004, dalla lunga esperienza e grazie al know-how aziendale, è nata EMED: è una divisione specializzata nello sviluppo, produzione e vendita di dispositivi medici e prodotti dedicati ad adulti e bambini
                     </p>
 
+
                 </div>
-                <div class="column">
+                <div class="column solede">
+                    <img src="https://prismic-io.s3.amazonaws.com/solede%2Fec203e4a-0567-4ec6-965f-d0893d2990c6_logo_solede.png" alt="" />
+                    <br><br>
                     <p>
                         Solede è una giovane realtà nata nel 2015 allo scopo di diffondere la cultura della prevenzione attraverso la diffusione di strumenti elettronici di facile utilizzo.
                     </p>
@@ -382,10 +482,10 @@
 
                     </p>
 
-
                 </div>
 
             </div>
+
 
         </section>
 
@@ -396,10 +496,12 @@
 
 <script>
     import Acquisto from '~/components/acquisto.vue'
+    import Banner from '~/components/banner.vue'
 
     export default {
         components: {
-            Acquisto
+            Acquisto,
+            Banner
 
         },
     }
@@ -407,11 +509,19 @@
 </script>
 
 <style lang="scss">
+
+.main {
+    padding: 1rem;
+}
+
 .testata {
-    background-color: $grigio-chiaro;
+    //background-color: $grigio-chiaro;
     .prodotto {
-        margin: 2rem 2rem 2rem 2rem;
+        margin: 1rem;
         background-color: #ffffff;
+        border-color: $grigio-chiaro;
+        border-width: .1rem;
+        border-style: solid;
     }
 
 
@@ -424,8 +534,19 @@
 }
 
 .caratteristiche {
-    p, ul {
-        color: $dark-gray;
+
+}
+
+.chi_siamo {
+    .solede{
+        margin-top: 10rem;
+    }
+}
+
+.perche_pistone {
+    .over-foto {
+        background-color: rgba(255,255,255,0.8);
+        margin: 7rem 2rem 7rem 2rem;
     }
 }
 
@@ -434,5 +555,12 @@
     border-color: $grigio-chiaro;
     border-width: .1rem;
     border-style: solid;
+}
+
+
+
+.numero-verde-menu {
+    font-size: 2rem;
+    color: #008a2e;
 }
 </style>
