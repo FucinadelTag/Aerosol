@@ -16,8 +16,6 @@ export default {
                 lastDayOfPromo = '15 ' + lastDayOfPromo;
             }
 
-            console.log(lastDayOfPromo);
-
             return lastDayOfPromo;
 
         }

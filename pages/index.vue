@@ -164,11 +164,10 @@
             </div>
             <div class="column content">
                 <p>
-                    Gli aerosol Emed sono <strong>Made in Italy</strong>, sinonimo di alta qualità, passione e ingegno.
+                    Gli aerosol Emed sono <strong>Made in Italy</strong>, garanzia nel mondo di alta qualità, passione e ingegno.
                 </p>
                 <p>
-                    Una sfida importante nella terapia respiratoria è la consegna efficace del farmaco nei bronchi e bronchioli nel tratto respiratorio inferiore.<br>
-                    Per superare questa sfida, gli aerosol trasformano il farmaco liquido in una nebbia di goccioline in modo da accellerarne l'assorbimento.
+                    Grazie alla sua decennale esperienza, EMED è un marchio italiano di grande rispetto nell'ideazione e nella produzione di dispositivi medici dedicati ai più grandi e ai più piccoli.
                 </p>
             </div>
 
@@ -569,22 +568,6 @@
             Acquisto,
             Banner
 
-        },
-        methods:{
-            getScadenzaPromo:function(){
-                moment.locale('it');
-                var lastDayOfPromo = moment().endOf('month').format("D\ MMMM YYYY");
-                var dayMonth = moment().date();
-
-                if (dayMonth <= 15){
-                    lastDayOfPromo = moment().endOf('month').format("MMMM YYYY");
-                    lastDayOfPromo = '15 ' + lastDayOfPromo;
-                }
-
-                return getScadenzaPromo;
-
-                $(".dataPromo").html(lastDayOfPromo);
-            }
         },
     }
 
