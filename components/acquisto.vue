@@ -13,7 +13,7 @@
                 v-bind:data-item-id="prodotto.sku"
                 v-bind:data-item-name="prodotto.nome"
                 v-bind:data-item-price="prodotto.prezzoScontato"
-                data-item-url="/"
+                data-item-url="https://www.aerosol-online.it/"
                 data-item-description="Aerosol a pistone">
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello
             </a>
