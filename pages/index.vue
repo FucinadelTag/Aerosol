@@ -2,7 +2,7 @@
     <section class="main container">
 
         <div class="columns testata">
-            <div class="prodotto column">
+            <div class="box prodotto column">
                 <h2 class="title is-1">Aerosol a pistone</h2>
                 <p class="subtitle is-5">
                     Emed A1500
@@ -12,7 +12,7 @@
 
                 <Acquisto sku="emed_A1500"/>
             </div>
-            <div class="prodotto column">
+            <div class="box prodotto column">
                 <h2 class="title is-1">Aerosol a pistone</h2>
                 <p class="subtitle is-5">
                     Emed A610
@@ -26,7 +26,7 @@
 
         <div class="spazio_bianco" />
 
-        <div class="servizio columns is-multiline">
+        <div class="box servizio columns is-multiline">
             <div class="column is-half">
                 <h3 class="title is-3">
                     <i class="fa fa-thumbs-up" aria-hidden="true"></i> 100% soddisfatti o rimborsati
@@ -103,7 +103,7 @@
 
         <h1 class="title is-1">Aerosol adatti a tutti i tipi di farmaci!</h1>
 
-        <div class="caratteristiche columns">
+        <div class="box caratteristiche columns">
             <div class="column content">
                 <h3 class="title">
                     <i class="fa fa-medkit" aria-hidden="true"></i> Adatti a tutti i tipi di farmaci (anche a base oleosa)
@@ -158,7 +158,7 @@
 
         <!-- <h1 class="title is-1">Progettato e Fabbricato in ITALIA!</h1> -->
 
-        <div class="made_in_italy columns">
+        <div class="box made_in_italy columns">
             <div class="column">
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/c12c7defc9aaf3c66f84be1a44b23a835b864fe2_made_in_italy_basso_2.jpg" alt="Made in Italy" />
             </div>
@@ -202,7 +202,7 @@
 
         <div class="spazio_bianco" />
 
-        <section class="scheda_tecnica">
+        <section class="box scheda_tecnica">
             <h1 class="title is-1">Nebulizzatore EMED A1500</h1>
 
             <div class="columns">
@@ -251,7 +251,7 @@
 
         <div class="spazio_bianco" />
 
-        <section class="scheda_tecnica">
+        <section class="box scheda_tecnica">
             <h1 class="title is-1">Nebulizzatore EMED A610</h1>
 
             <div class="columns">
@@ -302,7 +302,7 @@
 
         <div class="spazio_bianco" />
 
-        <section class="confezione">
+        <section class="box confezione">
             <h1 class="title is-1">Cosa trovi nella confezione</h1>
 
             <div class="columns">
@@ -428,7 +428,7 @@
 
         <div class="spazio_bianco" />
 
-        <section class="chi_siamo">
+        <section class="box chi_siamo">
             <h2 class="title is-1">Chi Siamo</h2>
 
             <!-- <table class="table is-fullwidth">
@@ -511,7 +511,7 @@
 
         <div class="spazio_bianco" />
 
-        <section>
+        <section class="box">
             <h2 class="title is-1">Contatti</h2>
             <div class="columns contatti">
                 <div class="column">
@@ -583,10 +583,7 @@
     //background-color: $grigio-chiaro;
     .prodotto {
         margin: 1rem;
-        background-color: #ffffff;
-        border-color: $grigio-chiaro;
-        border-width: .1rem;
-        border-style: solid;
+        
     }
 
 
@@ -594,32 +591,20 @@
 }
 .servizio {
     padding: 1rem;
-    border-color: $grigio-chiaro;
-    border-width: .1rem;
-    border-style: solid;
     .column {
         padding: 1.4rem;
     }
 }
 
 .caratteristiche {
-    padding: 1rem;
-    border-color: $grigio-chiaro;
-    border-width: .1rem;
-    border-style: solid;
 
 }
 
 .made_in_italy {
-    padding: 1rem;
-    border-color: $grigio-chiaro;
-    border-width: .1rem;
-    border-style: solid;
 
 }
 
 .contatti {
-        padding: 1rem;
 
         .box_nverde {
             font-size: 140%;
@@ -632,10 +617,6 @@
     .solede{
         margin-top: 10rem;
     }
-    padding: 1rem;
-    border-color: $grigio-chiaro;
-    border-width: .1rem;
-    border-style: solid;
 }
 
 .perche_pistone {
@@ -646,10 +627,7 @@
 }
 
 .scheda_tecnica, .confezione {
-    padding: 1rem;
-    border-color: $grigio-chiaro;
-    border-width: .1rem;
-    border-style: solid;
+
 }
 
 
