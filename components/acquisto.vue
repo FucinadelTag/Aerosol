@@ -3,7 +3,7 @@
         <p class="p_stretto">
             <span class="leggero">Prezzo: <span class="prezzo_intero">{{prodotto.prezzoIntero}}€</span></span><br>
             Offerta: <span class="prezzo">{{prodotto.prezzoScontato}}€</span> <span class="sconto">Sconto del {{prodotto.precentualeSconto}}%</span><br>
-            <span class="leggero">Risparmi: {{prodotto.risparmio}}€ </span><span> - </span><i>Fino al <strong class="dataPromo">31 gennaio 2018</strong></i> <br>
+            <span class="leggero">Risparmi: {{prodotto.risparmio}}€ </span><span> - </span><i>Fino al <strong class="dataPromo"><scadenzaPromo /></strong></i> <br>
             <i class="leggero">Spedizione <strong>senza</strong> costi aggiuntivi</i><br>
         </p>
         <br>
@@ -24,7 +24,11 @@
 </template>
 
 <script>
+import scadenzaPromo from '~/components/scadenzaPromo.vue'
+
 export default {
+
+
     props: ['sku'],
     data: function () {
         return {
@@ -37,6 +41,9 @@ export default {
             return (this.prodotti[this.sku]);
 
         }
+    },
+    components: {
+        scadenzaPromo,
     },
 }
 </script>

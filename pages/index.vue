@@ -156,7 +156,7 @@
 
         <div class="spazio_bianco" />
 
-        <h1 class="title is-1">Progettato e Fabbricato in ITALIA!</h1>
+        <!-- <h1 class="title is-1">Progettato e Fabbricato in ITALIA!</h1> -->
 
         <div class="made_in_italy columns">
             <div class="column">
@@ -562,12 +562,29 @@
 <script>
     import Acquisto from '~/components/acquisto.vue'
     import Banner from '~/components/banner.vue'
+    import moment from 'moment';
 
     export default {
         components: {
             Acquisto,
             Banner
 
+        },
+        methods:{
+            getScadenzaPromo:function(){
+                moment.locale('it');
+                var lastDayOfPromo = moment().endOf('month').format("D\ MMMM YYYY");
+                var dayMonth = moment().date();
+
+                if (dayMonth <= 15){
+                    lastDayOfPromo = moment().endOf('month').format("MMMM YYYY");
+                    lastDayOfPromo = '15 ' + lastDayOfPromo;
+                }
+
+                return getScadenzaPromo;
+
+                $(".dataPromo").html(lastDayOfPromo);
+            }
         },
     }
 

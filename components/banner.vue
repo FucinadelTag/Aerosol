@@ -2,7 +2,7 @@
     <section class="banner">
         <div class="columns">
                 <div class="column">
-                        <span class="sconto">50% di Sconto </span> <br><i>Fino al <strong class="dataPromo">31 Gennaio</strong></i><br>
+                        <span class="sconto">50% di Sconto </span> <br><i>Fino al  <scadenzaPromo /></i><br>
 
                         <span class="phoneAction">
                              <span class="subSconto"><i>Ordina al Telefono e Paga alla Consegna</i></span><br>
@@ -17,7 +17,12 @@
 </template>
 
 <script>
+import scadenzaPromo from '~/components/scadenzaPromo.vue'
+
 export default {
+    components: {
+        scadenzaPromo,
+    },
 }
 </script>
 
