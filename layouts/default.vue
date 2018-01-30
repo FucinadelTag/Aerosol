@@ -33,15 +33,7 @@
         components: {
             Menu
 
-        },
-        head () {
-            return {
-                title: 'Solede - Nebulizzatori e Aerosol',
-                meta: [
-                    { hid: 'description', name: 'description', content: 'Prova description' }
-                ]
-            }
-        },
+        }
     }
 </script>
 

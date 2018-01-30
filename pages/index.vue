@@ -51,7 +51,7 @@
                 </h3>
                 <p>
                     <strong>Non vi lasciamo mai soli</strong>. Chiamateci pure senza impegno prima di acquistare. Saremo sempre a vostra disposizione per ogni domanda.
-                    <br>Una volta acquistato, sapremo <strong>sempre</strong> aiutarti per utilizzare al meglio il nostro misuratore di pressione. Chiamaci!
+                    <br>Una volta acquistato, sapremo <strong>sempre</strong> aiutarti per utilizzare al meglio il nostro Aerosol. Chiamaci!
                 </p>
             </div>
             <div class="column is-half">
@@ -80,7 +80,7 @@
                 </h3>
                 <p>
                     Curiamo nel dettaglio ogni spedizione in modo tale da rendere il servizio migliore senza perdere tempo.<br>
-                    I nostri ordini vengono consegnati in 24/48 ore. Nel frattempo potrete <strong>monitorare passo passo</strong> dove si trova il vostro Misuratore di Pressione.
+                    I nostri ordini vengono consegnati in 24/48 ore. Nel frattempo potrete <strong>monitorare passo passo</strong> dove si trova il vostro Aerosol.
                     Nessuna sorpresa!
                 </p>
             </div>
@@ -156,6 +156,28 @@
 
         <div class="spazio_bianco" />
 
+        <h1 class="title is-1">Progettato e Fabbricato in ITALIA!</h1>
+
+        <div class="made_in_italy columns">
+            <div class="column">
+                <img src="https://prismic-io.s3.amazonaws.com/aerosol/c12c7defc9aaf3c66f84be1a44b23a835b864fe2_made_in_italy_basso_2.jpg" alt="Made in Italy" />
+            </div>
+            <div class="column content">
+                <p>
+                    Gli aerosol Emed sono <strong>Made in Italy</strong>, sinonimo di alta qualità, passione e ingegno.
+                </p>
+                <p>
+                    Una sfida importante nella terapia respiratoria è la consegna efficace del farmaco nei bronchi e bronchioli nel tratto respiratorio inferiore.<br>
+                    Per superare questa sfida, gli aerosol trasformano il farmaco liquido in una nebbia di goccioline in modo da accellerarne l'assorbimento.
+                </p>
+            </div>
+
+        </div>
+
+        <Banner/>
+
+        <div class="spazio_bianco" />
+
         <section class="perche_pistone">
             <h1 class="title is-1">Perchè scegliere un Aerosol a Pistone</h1>
 
@@ -188,12 +210,8 @@
                 <div class="column">
                     <img src="/images/pinguino_misure.png" alt="" />
 
-                    <Acquisto sku="emed_A1500"/>
-
                 </div>
                 <div class="column">
-                    <img src="/images/pinguino_istruzioni.png" alt="" />
-
                     <div class="columns is-multiline">
                         <div class="column is-half">
                             DIMENSIONI
@@ -223,6 +241,8 @@
                         </div>
 
                     </div>
+                    <hr>
+                    <Acquisto sku="emed_A1500"/>
                 </div>
             </div>
 
@@ -239,11 +259,9 @@
                 <div class="column">
                     <img src="/images/nebulizzatore_adulti_misure.png" alt="" />
 
-                    <Acquisto sku="emed_A610"/>
-
                 </div>
-                <div class="column">
-                    <img src="/images/nebulizzatore_adulti_funzioni.png" alt="" />
+                <div class="column content">
+                    <!-- <img src="/images/nebulizzatore_adulti_funzioni.png" alt="" /> -->
 
                     <div class="columns is-multiline">
                         <div class="column is-half">
@@ -274,6 +292,9 @@
                         </div>
 
                     </div>
+                    <hr>
+                    <Acquisto sku="emed_A610"/>
+
                 </div>
             </div>
 
@@ -491,7 +512,51 @@
 
         <div class="spazio_bianco" />
 
+        <section>
+            <h2 class="title is-1">Contatti</h2>
+            <div class="columns contatti">
+                <div class="column">
+                    <p class="title is-4">
+                        Dubbi o domande?
+                    </p>
+                    <p class="subtitle is-6">
+                        Scrivici un messaggio e ti risponderemo il prima possibile.
+                    </p>
+                    <section>
+                        <form accept-charset="UTF-8" action="https://formkeep.com/f/d5d9ebc89681" method="POST">
+                            <input type="hidden" id="id_pagina" name="id_pagina" value="aerosol-online">
+                            <div class="field">
+                                <label class="label is-small">Email:</label>
+                                <p class="control">
+                                    <input required class="input" type="email" name="email" placeholder="Email">
+                                </p>
+                            </div>
+                            <div class="field">
+                                <label class="label is-small">Messaggio:</label>
+                                <p class="control">
+                                    <textarea required class="textarea" name="messaggio" placeholder="Messaggio"></textarea>
+                                </p>
+                            </div>
+                            <div class="control has-text-centered">
+                                <button class="button">Contattaci!</button>
+                            </div>
+                        </form>
+                    </section>
+
+                </div>
+                <div class="column has-text-centered">
+                    <div class="box_nverde">
+                        <span>Se preferisci usa il Numero Verde gratuito!</span><br />
+                        <span class="numero-verde"> 800-180-439 </span><br />
+                        <span>Lun-Ven dalle 9:00 alle 18:00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </section>
+
+
 </template>
 
 <script>
@@ -542,6 +607,24 @@
     border-color: $grigio-chiaro;
     border-width: .1rem;
     border-style: solid;
+
+}
+
+.made_in_italy {
+    padding: 1rem;
+    border-color: $grigio-chiaro;
+    border-width: .1rem;
+    border-style: solid;
+
+}
+
+.contatti {
+        padding: 1rem;
+
+        .box_nverde {
+            font-size: 140%;
+            margin-top: 5rem;
+        }
 
 }
 
