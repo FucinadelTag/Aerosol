@@ -9,7 +9,7 @@
                     <div class="container">
                         <div class="content">
                             <p>
-                                <a href="resi" target="_blank">Restituzione e Rimborsi</a> | <a href="privacy">Privacy Policy</a>
+                                <a href="resi" target="_blank">Restituzione e Rimborsi</a> | <a href="privacy" target="_blank">Privacy Policy</a>
                             </p>
                             <br>
                             <p>
