@@ -523,7 +523,7 @@
                     </p>
                     <section>
                         <form accept-charset="UTF-8" action="https://formkeep.com/f/d5d9ebc89681" method="POST">
-                            <input type="hidden" id="id_pagina" name="id_pagina" value="aerosol-online">
+                            <input type="hidden" id="url_redirect" name="url_redirect" value="https://www.aerosol-online.it/grazie">
                             <div class="field">
                                 <label class="label is-small">Email:</label>
                                 <p class="control">
