@@ -5,7 +5,7 @@
             <div class="box prodotto column">
                 <h2 class="title is-1">Aerosol a pistone</h2>
                 <p class="subtitle is-5">
-                    Emed A1500
+                    Emed A1500 - <i>Pinguino</i>
                 </p>
 
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/63c30ff597d512253e01b1403be2e851b8802ee3_a1500.png" alt="" />
@@ -15,7 +15,7 @@
             <div class="box prodotto column">
                 <h2 class="title is-1">Aerosol a pistone</h2>
                 <p class="subtitle is-5">
-                    Emed A610
+                    Emed A610 - <i>Goccia</i>
                 </p>
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/8b8433c472bf9ccc4fe6ca7b5862720cad29b0e7_a610-lateral-view.jpg" alt="" />
                 <Acquisto sku="emed_A610"/>
@@ -403,7 +403,7 @@
                 <div class="column is-half has-text-centered">
                     <h2 class="title is-3">Aerosol a pistone</h2>
                     <p class="subtitle is-6">
-                        Emed A1500
+                        Emed A1500 - <i>Pinguino</i>
                     </p>
                     <img src="/images/emed_A1500.png" alt="" />
                     <Acquisto sku="emed_A1500"/>
@@ -412,7 +412,7 @@
                 <div class="column is-half has-text-centered">
                     <h2 class="title is-3">Aerosol a pistone</h2>
                     <p class="subtitle is-6">
-                        Emed A610
+                        Emed A610 - <i>Goccia</i>
                     </p>
                     <img src="/images/emed_A610.png" alt="" />
                     <Acquisto sku="emed_A610"/>
