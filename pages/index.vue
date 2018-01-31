@@ -474,8 +474,8 @@
 
             <div class="columns">
                 <div class="column is-half">
-                    <img src="/images/logo_emed.png" alt="" />
-
+                    <img src="https://prismic-io.s3.amazonaws.com/aerosol/583459dd0a784e7bad76d6f02438c2b4ed0f9150_emed_logo.png" alt="" />
+                    <hr>
                     <p>
                         EMED è un marchio registrato di EP S.p.A., società fondata nel 1963, come azienda produttrice di elettrodomestici per i grandi marchi.
                     </p>
@@ -486,9 +486,9 @@
 
 
                 </div>
-                <div class="column solede">
-                    <img src="https://prismic-io.s3.amazonaws.com/solede%2Fec203e4a-0567-4ec6-965f-d0893d2990c6_logo_solede.png" alt="" />
-                    <br><br>
+                <div class="column">
+                    <img class="solede" src="https://prismic-io.s3.amazonaws.com/solede%2Fec203e4a-0567-4ec6-965f-d0893d2990c6_logo_solede.png" alt="" />
+                    <hr>
                     <p>
                         Solede è una giovane realtà nata nel 2015 allo scopo di diffondere la cultura della prevenzione attraverso la diffusione di strumenti elettronici di facile utilizzo.
                     </p>
@@ -583,7 +583,7 @@
     //background-color: $grigio-chiaro;
     .prodotto {
         margin: 1rem;
-        
+
     }
 
 
@@ -615,7 +615,8 @@
 
 .chi_siamo {
     .solede{
-        margin-top: 10rem;
+        margin-top: 1.2rem;
+        margin-bottom: 3.1rem;
     }
 }
 
