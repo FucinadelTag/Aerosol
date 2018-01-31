@@ -28,7 +28,8 @@ module.exports = {
         { src: '~plugins/iconFont.js', ssr: false },
         { src: '~plugins/snipcartFdt.js', ssr: false },
         { src: '~plugins/facebook.js', ssr: false },
-        { src: '~plugins/iubenda.js', ssr: false }
+        { src: '~plugins/iubenda.js', ssr: false },
+        { src: '~plugins/analytics.js', ssr: false }
 
     ],
     loading: { color: '#3B8070' },
