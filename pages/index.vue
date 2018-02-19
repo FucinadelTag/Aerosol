@@ -3,7 +3,7 @@
 
         <div class="columns testata">
             <div class="box prodotto column">
-                <h2 class="title is-1">Aerosol a pistone</h2>
+                <h2 class="title is-1">Aerosol Pinguino</h2>
                 <p class="subtitle is-5">
                     Emed A1500 - <i>Pinguino</i>
                 </p>
@@ -13,7 +13,7 @@
                 <Acquisto sku="emed_A1500"/>
             </div>
             <div class="box prodotto column">
-                <h2 class="title is-1">Aerosol a pistone</h2>
+                <h2 class="title is-1">Aerosol Goccia</h2>
                 <p class="subtitle is-5">
                     Emed A610 - <i>Goccia</i>
                 </p>
@@ -401,7 +401,7 @@
             <div class="spazio_bianco" />
             <div class="columns is-centered">
                 <div class="column is-half has-text-centered">
-                    <h2 class="title is-3">Aerosol a pistone</h2>
+                    <h2 class="title is-3">Aerosol Pinguino</h2>
                     <p class="subtitle is-6">
                         Emed A1500 - <i>Pinguino</i>
                     </p>
@@ -410,7 +410,7 @@
                 </div>
 
                 <div class="column is-half has-text-centered">
-                    <h2 class="title is-3">Aerosol a pistone</h2>
+                    <h2 class="title is-3">Aerosol Goccia</h2>
                     <p class="subtitle is-6">
                         Emed A610 - <i>Goccia</i>
                     </p>
