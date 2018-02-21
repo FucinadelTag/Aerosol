@@ -402,18 +402,18 @@
             <div class="columns is-centered">
                 <div class="column is-half has-text-centered">
                     <h2 class="title is-3">Aerosol Pinguino</h2>
-                    <p class="subtitle is-6">
+                    <!-- <p class="subtitle is-6">
                         Emed A1500 - <i>Pinguino</i>
-                    </p>
+                    </p> -->
                     <img src="/images/emed_A1500.png" alt="" />
                     <Acquisto sku="emed_A1500"/>
                 </div>
 
                 <div class="column is-half has-text-centered">
                     <h2 class="title is-3">Aerosol Goccia</h2>
-                    <p class="subtitle is-6">
+                    <!-- <p class="subtitle is-6">
                         Emed A610 - <i>Goccia</i>
-                    </p>
+                    </p> -->
                     <img src="/images/emed_A610.png" alt="" />
                     <Acquisto sku="emed_A610"/>
                 </div>
