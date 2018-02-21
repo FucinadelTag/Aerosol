@@ -4,9 +4,9 @@
         <div class="columns testata">
             <div class="box prodotto column">
                 <h2 class="title is-1">Aerosol Pinguino</h2>
-                <p class="subtitle is-5">
+                <!-- <p class="subtitle is-5">
                     Emed A1500 - <i>Pinguino</i>
-                </p>
+                </p> -->
 
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/63c30ff597d512253e01b1403be2e851b8802ee3_a1500.png" alt="" />
 
@@ -14,9 +14,9 @@
             </div>
             <div class="box prodotto column">
                 <h2 class="title is-1">Aerosol Goccia</h2>
-                <p class="subtitle is-5">
+                <!-- <p class="subtitle is-5">
                     Emed A610 - <i>Goccia</i>
-                </p>
+                </p> -->
                 <img src="https://prismic-io.s3.amazonaws.com/aerosol/8b8433c472bf9ccc4fe6ca7b5862720cad29b0e7_a610-lateral-view.jpg" alt="" />
                 <Acquisto sku="emed_A610"/>
             </div>
@@ -203,7 +203,7 @@
         <div class="spazio_bianco" />
 
         <section class="box scheda_tecnica">
-            <h1 class="title is-1">Nebulizzatore EMED A1500</h1>
+            <h1 class="title is-1">Nebulizzatore - Pinguino</h1>
 
             <div class="columns">
                 <div class="column">
@@ -226,12 +226,12 @@
                             1,25 Kg
                         </div>
 
-                        <div class="column is-half">
+                        <!-- <div class="column is-half">
                             MEDICINALE RESIDUO
                         </div>
                         <div class="column is-half">
                             0,3 ml
-                        </div>
+                        </div> -->
                         <div class="column is-half">
                             LIVELLO DI RUMORE
                         </div>
@@ -252,7 +252,7 @@
         <div class="spazio_bianco" />
 
         <section class="box scheda_tecnica">
-            <h1 class="title is-1">Nebulizzatore EMED A610</h1>
+            <h1 class="title is-1">Nebulizzatore - Goccia</h1>
 
             <div class="columns">
                 <div class="column">
@@ -277,12 +277,12 @@
                             1,3 Kg
                         </div>
 
-                        <div class="column is-half">
+                        <!-- <div class="column is-half">
                             MEDICINALE RESIDUO
                         </div>
                         <div class="column is-half">
                             0,3 ml
-                        </div>
+                        </div> -->
                         <div class="column is-half">
                             LIVELLO DI RUMORE
                         </div>
