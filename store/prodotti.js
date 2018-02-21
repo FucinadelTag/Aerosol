@@ -13,9 +13,9 @@ const listProdotti =
         emed_A610: {
             nome: 'Aerosol a pistone EMED A610 (Goccia)',
             sku: 'EMED_A610',
-            prezzoIntero: 103,
-            prezzoScontato: '51,5',
-            prezzoCart: 51.5,
+            prezzoIntero: 85,
+            prezzoScontato: '42,5',
+            prezzoCart: 42.5,
             precentualeSconto: 50,
             risparmio: '51,5',
             immagine: 'https://prismic-io.s3.amazonaws.com/aerosol/8b8433c472bf9ccc4fe6ca7b5862720cad29b0e7_a610-lateral-view.jpg'
