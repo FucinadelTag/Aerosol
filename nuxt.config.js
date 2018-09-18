@@ -7,6 +7,7 @@ module.exports = {
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { name: 'google-site-verification', content: 'xWlR0w7rlsVEGy_tq4k2UecX4KolhabTQJ4pKoByRUM' },
             { hid: 'description', name: 'description', content: 'Aerosol Nebulizzatore a Pistone per Neonati, Bambini e Adulti. Acquista Online o al Telefono: Spedizione Gratuita in 2-3 Giorni Lavorativi. Soddisfatti o Rimborsati. Garanzia 2 anni!' }
         ],
         link: [
