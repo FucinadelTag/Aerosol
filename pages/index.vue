@@ -19,7 +19,7 @@
         <section class="hero has-bg-img is-hidden-desktop">
 
             <div class="hero-body">
-                <img src="http://localhost:3333/images/emed_A1500.png" alt="" />
+                <img src="/images/emed_A1500.png" alt="" />
                 <div class="container">
                         <Acquisto sku="emed_A1500"/>
                         <br>
