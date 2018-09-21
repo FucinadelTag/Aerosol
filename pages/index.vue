@@ -1,9 +1,8 @@
 <template>
 <span>
-        <section class="hero is-medium has-bg-img">
+        <section class="hero is-medium has-bg-img is-hidden-mobile">
             <div class="hero-body" style="background: url(https://aerosol.cdn.prismic.io/aerosol/96a50bd83250e7097eadb06eb79f69a44294bd4e_testata_aerosol_sfumata.jpg); background-position: center center; background-size:cover;">
                 <div class="container">
-                    <div class="row align-right">
                         <Acquisto sku="emed_A1500"/>
                         <br>
                         <p>
@@ -13,7 +12,24 @@
                             </span>
                             <br>(Lun-Ven dalle 9:00 alle 18:00)
                         </p>
-                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero has-bg-img is-hidden-desktop">
+
+            <div class="hero-body">
+                <img src="http://localhost:3333/images/emed_A1500.png" alt="" />
+                <div class="container">
+                        <Acquisto sku="emed_A1500"/>
+                        <br>
+                        <p>
+                            <h3 class="title is-5">Oppure ordina al TELEFONO e Paga alla consegna!</h3>
+                            <span class="numero-verde-menu">
+                                <a href="tel:800-180-439" class="numero-verde"><i class="fa fa-phone" aria-hidden="true"></i> 800-180-439</a>
+                            </span>
+                            <br>(Lun-Ven dalle 9:00 alle 18:00)
+                        </p>
                 </div>
             </div>
         </section>
