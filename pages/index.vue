@@ -257,7 +257,7 @@
             <h1 class="title is-1">Cosa trovi nella confezione</h1>
 
             <div class="columns">
-                <div class="column has-text-centered">
+                <div class="column is-two-thirds has-text-centered">
                     <table class="table is-fullwidth">
                         <tbody>
                             <tr>
