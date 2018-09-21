@@ -1,5 +1,7 @@
 <template lang="html">
     <section class="acquisto">
+        <h2 class="title is-1">Aerosol Pinguino</h2>
+        <h3 class="subtitle">Veloce e silenzioso</h3>
         <p class="p_stretto">
             <span class="leggero">Prezzo: <span class="prezzo_intero">{{prodotto.prezzoIntero}}€</span></span><br>
             Offerta: <span class="prezzo">{{prodotto.prezzoScontato}}€</span> <span class="sconto">Sconto del {{prodotto.precentualeSconto}}%</span><br>

@@ -1,26 +1,24 @@
 <template>
+<span>
+        <section class="hero is-medium has-bg-img">
+            <div class="hero-body" style="background: url(https://aerosol.cdn.prismic.io/aerosol/96a50bd83250e7097eadb06eb79f69a44294bd4e_testata_aerosol_sfumata.jpg); background-position: center center; background-size:cover;">
+                <div class="container">
+                    <div class="row align-right">
+                        <Acquisto sku="emed_A1500"/>
+                        <br>
+                        <p>
+                            <h3 class="title is-5">Oppure ordina al TELEFONO e Paga alla consegna!</h3>
+                            <span class="numero-verde-menu">
+                                <a href="tel:800-180-439" class="numero-verde"><i class="fa fa-phone" aria-hidden="true"></i> 800-180-439</a>
+                            </span>
+                            <br>(Lun-Ven dalle 9:00 alle 18:00)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     <section class="main container">
-
-        <div class="columns testata">
-            <div class="box prodotto column">
-                <h2 class="title is-1">Aerosol Pinguino</h2>
-                <!-- <p class="subtitle is-5">
-                    Emed A1500 - <i>Pinguino</i>
-                </p> -->
-
-                <img src="https://prismic-io.s3.amazonaws.com/aerosol/63c30ff597d512253e01b1403be2e851b8802ee3_a1500.png" alt="" />
-
-                <Acquisto sku="emed_A1500"/>
-            </div>
-            <div class="box prodotto column">
-                <h2 class="title is-1">Aerosol Goccia</h2>
-                <!-- <p class="subtitle is-5">
-                    Emed A610 - <i>Goccia</i>
-                </p> -->
-                <img src="https://prismic-io.s3.amazonaws.com/aerosol/8b8433c472bf9ccc4fe6ca7b5862720cad29b0e7_a610-lateral-view.jpg" alt="" />
-                <Acquisto sku="emed_A610"/>
-            </div>
-        </div>
 
         <Banner/>
 
@@ -203,7 +201,7 @@
         <div class="spazio_bianco" />
 
         <section class="box scheda_tecnica">
-            <h1 class="title is-1">Nebulizzatore - Pinguino</h1>
+            <h1 class="title is-1">Caratteristiche Tecniche</h1>
 
             <div class="columns">
                 <div class="column">
@@ -251,53 +249,6 @@
 
         <div class="spazio_bianco" />
 
-        <section class="box scheda_tecnica">
-            <h1 class="title is-1">Nebulizzatore - Goccia</h1>
-
-            <div class="columns">
-                <div class="column">
-                    <img src="/images/nebulizzatore_adulti_misure.png" alt="" />
-
-                </div>
-                <div class="column content">
-                    <!-- <img src="/images/nebulizzatore_adulti_funzioni.png" alt="" /> -->
-
-                    <div class="columns is-multiline">
-                        <div class="column is-half">
-                            DIMENSIONI
-                        </div>
-                        <div class="column is-half">
-                            190 x 178 x 102 mm
-                        </div>
-
-                        <div class="column is-half">
-                            PESO
-                        </div>
-                        <div class="column is-half">
-                            1,3 Kg
-                        </div>
-
-                        <!-- <div class="column is-half">
-                            MEDICINALE RESIDUO
-                        </div>
-                        <div class="column is-half">
-                            0,3 ml
-                        </div> -->
-                        <div class="column is-half">
-                            LIVELLO DI RUMORE
-                        </div>
-                        <div class="column is-half">
-                            57 dB
-                        </div>
-
-                    </div>
-                    <hr>
-                    <Acquisto sku="emed_A610"/>
-
-                </div>
-            </div>
-
-        </section>
 
 
         <div class="spazio_bianco" />
@@ -311,14 +262,32 @@
                         <tbody>
                             <tr>
                                 <td class="has-text-centered">
+                                    <img src="/images/mascherina_adulti.png" alt="" />
+                                </td>
+                                <td class="has-text-centered">
+                                    <img src="/images/mascherina_pediatrica.png" alt="" />
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="has-text-centered">
+                                    Mascherina Adulti
+                                </td>
+                                <td class="has-text-centered">
+                                    Mascherina Pediatrica
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="has-text-centered">
                                     <img src="/images/attacco_aria.png" alt="" />
                                 </td>
                                 <td class="has-text-centered">
                                     <img src="/images/ampolla_lineare.png" alt="" />
                                 </td>
-                                <td class="has-text-centered">
+                                <!-- <td class="has-text-centered">
                                     <img src="/images/mascherina_adulti.png" alt="" />
-                                </td>
+                                </td> -->
 
                             </tr>
 
@@ -329,16 +298,16 @@
                                 <td class="has-text-centered">
                                     Ampolla lineare
                                 </td>
-                                <td class="has-text-centered">
+                                <!-- <td class="has-text-centered">
                                     Mascherina Adulti
-                                </td>
+                                </td> -->
 
                             </tr>
                             <tr>
 
-                                <td class="has-text-centered">
+                                <!-- <td class="has-text-centered">
                                     <img src="/images/mascherina_pediatrica.png" alt="" />
-                                </td>
+                                </td> -->
                                 <td class="has-text-centered">
                                     <img src="/images/nasale.png" alt="" />
                                 </td>
@@ -349,9 +318,9 @@
                             </tr>
                             <tr>
 
-                                <td class="has-text-centered">
+                                <!-- <td class="has-text-centered">
                                     Mascherina Pediatrica
-                                </td>
+                                </td> -->
                                 <td class="has-text-centered">
                                     Nasale
                                 </td>
@@ -362,6 +331,13 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class="column">
+                    <!-- <p class="subtitle is-6">
+                        Emed A1500 - <i>Pinguino</i>
+                    </p> -->
+                    <img src="/images/emed_A1500.png" alt="" />
+                    <Acquisto sku="emed_A1500"/>
                 </div>
             </div>
             <!-- <div class="column has-text-centered">
@@ -397,30 +373,6 @@
                     </tbody>
                 </table>
             </div> -->
-        </div>
-            <div class="spazio_bianco" />
-            <div class="columns is-centered">
-                <div class="column is-half has-text-centered">
-                    <h2 class="title is-3">Aerosol Pinguino</h2>
-                    <!-- <p class="subtitle is-6">
-                        Emed A1500 - <i>Pinguino</i>
-                    </p> -->
-                    <img src="/images/emed_A1500.png" alt="" />
-                    <Acquisto sku="emed_A1500"/>
-                </div>
-
-                <div class="column is-half has-text-centered">
-                    <h2 class="title is-3">Aerosol Goccia</h2>
-                    <!-- <p class="subtitle is-6">
-                        Emed A610 - <i>Goccia</i>
-                    </p> -->
-                    <img src="/images/emed_A610.png" alt="" />
-                    <Acquisto sku="emed_A610"/>
-                </div>
-
-            </div>
-
-
 
         </section>
 
@@ -554,6 +506,7 @@
         </section>
 
     </section>
+</span>
 
 
 </template>
