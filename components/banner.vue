@@ -5,9 +5,8 @@
                         <span class="sconto">50% di Sconto </span> <br><i>Fino al  <scadenzaPromo /></i><br>
 
                         <span class="phoneAction">
-                             <span class="subSconto"><i>Ordina al Telefono e Paga alla Consegna</i></span><br>
-                            <a href="tel:800-180-439" class="button numero-verde"><i class="fa fa-phone" aria-hidden="true"></i> 800-180-439</a>
-                            <br>Dal Lunedì al Venerdì - dalle 09 alle 18
+                            <span class="subSconto"><i>Ordina Subito!</i></span><br>
+                            <addToCartButton sku="emed_A1500" />
                         </span>
                 </div>
         </div>
@@ -18,10 +17,12 @@
 
 <script>
 import scadenzaPromo from '~/components/scadenzaPromo.vue'
+import addToCartButton from '~/components/addToCartButton.vue'
 
 export default {
     components: {
         scadenzaPromo,
+        addToCartButton
     },
 }
 </script>

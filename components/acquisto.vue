@@ -10,15 +10,7 @@
         </p>
         <br>
         <p>
-            <a
-                class="snipcart-add-item button"
-                v-bind:data-item-id="prodotto.sku"
-                v-bind:data-item-name="prodotto.nome"
-                v-bind:data-item-price="prodotto.prezzoCart"
-                data-item-url="https://www.aerosol-online.it/"
-                data-item-description="Aerosol a pistone">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello
-            </a>
+            <addToCartButton v-bind:sku="prodotto.sku" />
             <!-- <a class="button"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Aggiungi al Carrello</a> -->
         </p>
     </section>
@@ -27,6 +19,7 @@
 
 <script>
 import scadenzaPromo from '~/components/scadenzaPromo.vue'
+import addToCartButton from '~/components/addToCartButton.vue'
 
 export default {
 
@@ -46,6 +39,7 @@ export default {
     },
     components: {
         scadenzaPromo,
+        addToCartButton,
     },
 }
 </script>
@@ -81,11 +75,6 @@ export default {
 
     .p_stretto {
       line-height: 1.2;
-    }
-
-    .button {
-        font-size: 1.4rem;
-        text-transform: uppercase;
     }
 }
 

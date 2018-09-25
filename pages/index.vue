@@ -36,9 +36,13 @@
 
     <section class="main container">
 
-        <Banner/>
+        <span class="is-hidden-mobile">
+            <Banner/>
+            <div class="spazio_bianco" />
+        </span>
 
-        <div class="spazio_bianco" />
+
+
 
         <div class="box servizio columns is-multiline">
             <div class="column is-half">
@@ -216,6 +220,67 @@
 
         <div class="spazio_bianco" />
 
+        <section class="box recensioni">
+            <h2 class="title is-1">Recensioni</h2>
+
+            <div class="columns">
+                <div class="column is-one-third">
+
+                    <div>
+                        <figure class="float_left image is-128x128">
+                            <img src="https://aerosol.cdn.prismic.io/aerosol/6c11729ba7e9ab1faaac36690e32c189d33ffe88_recensione-1.jpg" class="is-rounded " alt="" />
+                        </figure>
+                        <span class="stelle"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+                        <p class="title is-4">Franca Marchesi</p>
+                        <p class="subtitle is-7">Mamma di Paolo</p>
+                        <p>
+                            Ottimo prodotto, essendo un aerosol a pistone ovviamente non è silenzioso ma il rumore è assolutamente accettabile. E' molto veloce per quanto riguarda la vaporizzazione e di dimensioni compatte. Permette di veicolare in poco tempo grandi quantità di farmaco, quindi ottimo per i bambini che notoriamente non sono pazienti.
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="column is-one-third">
+
+                    <div>
+                        <figure class="float_left image is-128x128">
+                            <img src="https://aerosol.cdn.prismic.io/aerosol/47f5399f74ad5353ad7b19b9465bfd1072571476_recensione-2.jpg" class="is-rounded " alt="" />
+                        </figure>
+                        <span class="stelle"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+
+                        <p class="title is-4">Paolo Giuliani</p>
+                        <p class="subtitle is-7">Imprenditore</p>
+                        <p>
+                            L'ho comprato in sostituzione del vecchio aerosol a ultrasuoni che lasciava sempre il medicinale nell'ampolla anche dopo mezz'ora di trattamento! Questo invece non dura un'eternità, ma nebulizza il medicinale in max 10 minuti! Questo acquisto è stata una svolta! Pagato in contrassegno e arrivato in due giorni.
+                        </p>
+
+                    </div>
+
+
+                </div>
+                <div class="column is-one-third">
+
+                    <div>
+                        <figure class="float_left image is-128x128">
+                            <img src="https://aerosol.cdn.prismic.io/aerosol/aacb729412bc0d3ead055527447b6a84cac4c5ab_recensione-3.jpg" class="is-rounded " alt="" />
+                        </figure>
+                        <span class="stelle"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span>
+
+                        <p class="title is-4">Maria Montini</p>
+                        <p class="subtitle is-7">Impiegata e mamma di Lucia</p>
+                        <p>
+                            Abbiamo scelto l'aerosol pinguino dato che lo usa per la maggior parte mia figlia, che ora ha preso il momento dell'aerosol come un gioco. Dotato di tutti gli accessori necessari, in particolare la mascherina pediatrica che copre perfettamente la bocca della piccola ed evita la fuoriuscita di vapore inutile.
+                        </p>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
         <section class="box scheda_tecnica">
             <h1 class="title is-1">Caratteristiche Tecniche</h1>
 
@@ -392,9 +457,12 @@
 
         </section>
 
-        <Banner/>
+        <span class="is-hidden-mobile">
+            <Banner/>
 
-        <div class="spazio_bianco" />
+            <div class="spazio_bianco" />
+        </span>
+
 
         <section class="box chi_siamo">
             <h2 class="title is-1">Chi Siamo</h2>
@@ -600,6 +668,15 @@
 
 }
 
+.float_left {
+    float: left;
+    margin-right: 10px;
+}
+
+.stelle {
+  color: #fad220;
+  font-size: 2rem;
+}
 
 
 .numero-verde-menu {

@@ -2,7 +2,7 @@ const listProdotti =
     {
         emed_A1500:{
             nome: 'Aerosol a pistone EMED A1500 (Pinguino)',
-            sku: 'EMED_A1500',
+            sku: 'emed_A1500',
             prezzoIntero: 85,
             prezzoScontato: '42,5',
             prezzoCart: 42.5,
@@ -12,7 +12,7 @@ const listProdotti =
         },
         emed_A610: {
             nome: 'Aerosol a pistone EMED A610 (Goccia)',
-            sku: 'EMED_A610',
+            sku: 'emed_A610',
             prezzoIntero: 85,
             prezzoScontato: '42,5',
             prezzoCart: 42.5,
