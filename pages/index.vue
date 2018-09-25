@@ -466,48 +466,6 @@
 
         <section class="box chi_siamo">
             <h2 class="title is-1">Chi Siamo</h2>
-
-            <!-- <table class="table is-fullwidth">
-                <tbody>
-                    <tr>
-                        <td>
-                            <img src="/images/logo_emed.png" alt="" />
-                        </td>
-                        <td>
-                            <br><br><br><br>
-                            <img src="https://prismic-io.s3.amazonaws.com/solede%2Fec203e4a-0567-4ec6-965f-d0893d2990c6_logo_solede.png" alt="" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>
-                                EMED è un marchio registrato di EP S.p.A., società fondata nel 1963, come azienda produttrice di elettrodomestici per i grandi marchi.
-                            </p>
-                            <br>
-                            <p>
-                                Nel 2004, dalla lunga esperienza e grazie al know-how aziendale, è nata EMED: è una divisione specializzata nello sviluppo, produzione e vendita di dispositivi medici e prodotti dedicati ad adulti e bambini
-                            </p>
-                        </td>
-                        <td>
-                            <p>
-                                Solede è una giovane realtà nata nel 2015 allo scopo di diffondere la cultura della prevenzione attraverso la diffusione di strumenti elettronici di facile utilizzo.
-                            </p>
-                            <br>
-                            <p>
-                                Unitamente ad un grosso lavoro di formazione e culturale, cerchiamo di rendere disponibili al grande pubblico degli strumenti di monitoraggio della propria salute.
-                            </p>
-                            <br>
-                            <p>
-                                Avvalendosi della consulenza di medici affermati e professionisti del soccorso, Solede propone al proprio pubblico strumenti semplici e funzionali a prezzi competitivi
-
-                            </p>
-
-                        </td>
-                    </tr>
-                </tbody>
-
-            </table> -->
-
             <div class="columns">
                 <div class="column is-half">
                     <img src="https://prismic-io.s3.amazonaws.com/aerosol/583459dd0a784e7bad76d6f02438c2b4ed0f9150_emed_logo.png" alt="" />

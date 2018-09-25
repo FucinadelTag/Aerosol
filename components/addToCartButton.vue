@@ -24,7 +24,6 @@ export default {
     computed: {
         // a computed getter
         prodotto: function () {
-            console.log(this.sku);
             return (this.prodotti[this.sku]);
 
         }
